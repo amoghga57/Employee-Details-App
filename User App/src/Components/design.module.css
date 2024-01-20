@@ -1,0 +1,98 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: black;
+}
+/* ----------------- NavBar down --------------------- */
+#nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 80px;
+     background-color: rgb(13, 200, 220);
+}
+#nav a{
+     font-size: 40px;
+     text-decoration: none;
+     color: black;
+}
+/* ----------------- Create down --------------------- */
+#boxSize{
+     width: 100%;
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+}
+#box{
+     text-align: center;
+     height: 330px;
+     width: 300px;
+     padding-top:50px ;
+     background-color: rgb(83, 225, 73);
+     border-radius: 10px;
+}
+#box form{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+#box form input{
+     height: 40px;
+     width:230px;
+     padding-left:10px ;
+     font-size: 20px;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid black;
+     background-color: rgb(83, 225, 73);
+}
+#box form button{
+     margin-top: 20px;
+     padding: 10px 30px;
+     font-size: 20px;
+     border: none;
+     border-radius: 5px ;
+     color: white;
+     background-color: black;
+}
+@media screen and (max-width:600px) {
+     #nav a{
+          font-size: 30px;
+     }
+}
+/* ----------------- Details down --------------------- */
+.box{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.boxs{
+     display: grid;
+     color: rgb(0, 0, 0);
+     background-color: rgb(113, 223, 93);
+     margin: 27px 37px;
+     width: 15%;height: 300px;
+     text-align: center;
+     border-radius: 40px 0px 10px 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boxs > div{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.boxs>div>button>a{
+     text-decoration: none;
+     color: white;
+}
+.boxs>div>button{
+     padding: 6px 18px;
+     color: white;
+     background-color: black;
+     border-radius: 10px;
+     font-size: 22px;
+}
