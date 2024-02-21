@@ -19,7 +19,7 @@ const Edit = () => {
                     setSal(resp.data.eSal)
                     setCompany(resp.data.eCompany)
                })
-     }, [])
+     }, [url.id])
 
      let navi = useNavigate()
 
